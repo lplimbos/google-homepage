@@ -1,0 +1,67 @@
+body{
+	margin: 0 auto;
+	display: block;
+}
+
+#wrapper{
+	margin: auto auto;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	width: 100%;
+	display: block;
+	position: absolute;
+}
+
+#header{
+	height: 30px;
+	width: 100%;
+	position: relative;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	display: inline-block;
+}
+
+#headerNav{
+	float: right;
+	width: 242px;
+	padding: 0px 30px;
+	height: 30px;
+	display: inline-block;
+}
+
+#headerGmailImages{
+	display: inline-block;
+	padding-right: 15px;
+	height: 30px;
+}
+
+#headerIcons{
+	display: inline-block;
+	height: 30px;
+}
+
+div.headerGmail, div.headerImages, div.headerItem, div.headerNotif, div.headerUser{
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.headerItem{
+	display: inline-block;
+	height: 30px;
+}
+
+div.headerItemApps{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}
+
+a.headerApps{
+	background-image: url("../images/apps.png");
+	background-size: 16px 16px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
