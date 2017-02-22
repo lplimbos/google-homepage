@@ -16,15 +16,13 @@ body{
 	height: 30px;
 	width: 100%;
 	position: relative;
-	border-width: 1px;
-	border-style: solid;
-	border-color: black;
+	margin-top: 20px;
 	display: inline-block;
 }
 
 #headerNav{
 	float: right;
-	width: 242px;
+	width: 262px;
 	padding: 0px 30px;
 	height: 30px;
 	display: inline-block;
@@ -34,6 +32,7 @@ body{
 	display: inline-block;
 	padding-right: 15px;
 	height: 30px;
+	vertical-align: top;
 }
 
 #headerIcons{
@@ -41,14 +40,20 @@ body{
 	height: 30px;
 }
 
-div.headerGmail, div.headerImages, div.headerItem, div.headerNotif, div.headerUser{
+div.headerItem, div.headerNotifContainer, div.headerUserContainer{
 	display: inline-block;
 	padding-left: 15px;
 }
 
-.headerItem{
+a.headerGmail, a.headerImages{
 	display: inline-block;
-	height: 30px;
+	margin-top: 8px;
+	color: #3F3F3F;
+}
+
+a.headerGmail:hover, a.headerImages:hover{
+	color: #090909;
+	text-decoration: underline;
 }
 
 div.headerItemApps{
@@ -64,4 +69,57 @@ a.headerApps{
 	width: 16px;
 	height: 16px;
 	display: inline-block;
+	margin-top: 6px;
+	opacity: .55;
+}
+
+a.headerApps:hover{
+	opacity: 1;
+}
+
+.headerNotifContainer{
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+}
+
+.headerNotif{
+	background-color: #db4437;
+	box-sizing: border-box;
+	width: 20px;
+	height: 20px;
+	margin: 4px;
+	border-radius: 50%;
+	padding: 4px;
+	text-align: center;
+	color: #fff;
+}
+
+.headerNotif:hover{
+	background-color: #5D1C17;
+}
+
+.headerUserContainer{
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+}
+
+.headerUser{
+	background-color: #0097A7;
+	position: absolute;
+	top: -1px;
+	box-sizing: border-box;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	padding: 9px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	font-size: 16px;
+}
+
+.headerUser:hover{
+	background-color: #004A51;
 }
