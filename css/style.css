@@ -123,3 +123,66 @@ a.headerApps:hover{
 .headerUser:hover{
 	background-color: #004A51;
 }
+
+.googleLogo{
+	background-image: url('../images/googleLogo.png');
+	height: 92px;
+	width: 272px;
+	margin: 0 auto;
+}
+
+.logoContainer{
+	padding-top: 159px;
+	display: block;
+}
+
+.searchBarContainer{
+	height: 38px;
+	display: block;
+	padding-top: 16px;
+}
+
+.searchBar{
+	margin: 0 auto;
+	width: 600px;
+	height: 38px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	-webkit-appearance: none;
+	border-style: none;
+	border-radius: 2px;
+	position: relative;
+}
+
+.search{
+	width: 520px;
+	height: 30px;
+	border-style: none;
+	margin: 3px 8px 3px 10px;
+	font-size: 16px;
+	font-family: arial, sans-serif;
+	display: inline-block;
+}
+
+.googleNowContainer{
+	width: 50px;
+	height: 38px;
+	margin: 0 8px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.searchForm{
+	width: 0;
+	height: 0;
+	display: inline-block;
+}
+
+.googleNow{
+	background-image: url('../images/googleNow.png');
+	background-size: 24px 24px;
+	width: 18px;
+	height: 23px;
+	margin: 8px auto;
+}
