@@ -124,6 +124,10 @@ a.headerApps:hover{
 	background-color: #004A51;
 }
 
+.mainContent{
+	padding-bottom: 40px;
+}
+
 .googleLogo{
 	background-image: url('../images/googleLogo.png');
 	height: 92px;
@@ -145,7 +149,7 @@ a.headerApps:hover{
 .searchBar{
 	margin: 0 auto;
 	width: 600px;
-	height: 38px;
+	height: 48px;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 	-webkit-appearance: none;
 	border-style: none;
@@ -157,10 +161,14 @@ a.headerApps:hover{
 	width: 520px;
 	height: 30px;
 	border-style: none;
-	margin: 3px 8px 3px 10px;
+	margin: 8px 8px 8px 10px;
 	font-size: 16px;
 	font-family: arial, sans-serif;
 	display: inline-block;
+}
+
+.search:focus{
+	outline: none;
 }
 
 .googleNowContainer{
@@ -184,5 +192,94 @@ a.headerApps:hover{
 	background-size: 24px 24px;
 	width: 18px;
 	height: 23px;
-	margin: 8px auto;
+	margin: 12px auto;
+}
+
+.searchButtonsContainer{
+	padding-top: 40px;
+	height: 40px;
+}
+
+.searchButtons{
+	margin: 0 auto;
+	width: 500px;
+	height: 40px;
+	text-align: center;
+}
+
+.button{
+	-webkit-appearance: none;
+	border-style: none;
+	border-radius: 3px;
+	color: #757575;
+	background-color: #F4F4F4;
+	width: 140px;
+	height: 40px;
+	margin: 0 10px 0 10px;
+	font-weight: bold;
+}
+
+.button:hover{
+	border-style: solid;
+	border-width: 1px;
+	color: black;
+	border-color: #757575;
+	box-shadow: 0 1px 1px #C8C8C8;
+}
+
+.languageContainer{
+	padding-top: 30px;
+	height: 30px;
+}
+
+.language{
+	width: 400px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.language p{
+	text-align: center;
+	font-size: 14px;
+}
+
+.language a{
+	color: #1A0DAB;
+}
+
+.language a:hover{
+	text-decoration: underline;
+}
+
+.footerContainer{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	background-color: #F2F2F2;
+	width: 100%;
+	border-top: solid;
+	border-width: 1px;
+	border-color: #E4E4E4;
+}
+
+.footerRightSide, .footerLeftSide, .footerRightSide div, .footerLeftSide div{
+	display: inline-block;
+}
+
+.footerRightSide div, .footerLeftSide div{
+	margin: 13px 20px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #666666;
+}
+
+.footerLeftSide{
+	float: left;
+	padding-left: 10px;
+}
+
+.footerRightSide{
+	float: right;
+	padding-right: 10px;
 }
